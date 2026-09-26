@@ -1,0 +1,7 @@
+#!/bin/bash
+
+dir='/home/rudra/scripts/custom-workspaces'
+
+final=$(bash -c "ls -t -- \"$dir\"/*.sh | xargs -n1 basename" | rofi -dmenu \
+  -i -p "Select mode  ")
+"/home/rudra/scripts/custom-workspaces/$final"

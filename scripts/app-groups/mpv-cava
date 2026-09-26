@@ -1,0 +1,57 @@
+#!/bin/bash
+
+parent="/home/rudra/Music/"
+
+# -------------------------------------------------------------------
+# STEP 1: Select Folder
+# -------------------------------------------------------------------
+# List all subfolders (relative to $parent) with "Play All" at the top
+selected_folder=$( {
+    echo "Play All"
+    find "$parent" -mindepth 1 -type d -printf "%P\n" | sort
+} | rofi -dmenu -i -p "Folder   " -matching fuzzy )
+
+# Exit if user cancelled rofi (hit Escape)
+[[ -z "$selected_folder" ]] && exit 0
+
+
+# -------------------------------------------------------------------
+# STEP 2: Handle "Play All" at Root level
+# -------------------------------------------------------------------
+if [[ "$selected_folder" == "Play All" ]]; then
+    # Play all songs in parent and all subdirectories, shuffled
+    mpv_cmd="mpv --shuffle --playlist=<(find \\\"$parent\\\" -type f -iname \\\"*.mp3\\\") & disown"
+
+
+# -------------------------------------------------------------------
+# STEP 3: Handle Folder Selection
+# -------------------------------------------------------------------
+else
+    folder_path="$parent/$selected_folder"
+
+    # List all MP3 files inside the selected folder with "Play All" at top
+    selected_song=$( {
+        echo "Play All"
+        find "$folder_path" -maxdepth 1 -type f -iname "*.mp3" -exec basename {} \; | sort
+    } | rofi -dmenu -i -p "Song   " -matching fuzzy )
+
+    # Exit if user cancelled rofi
+    [[ -z "$selected_song" ]] && exit 0
+
+    if [[ "$selected_song" == "Play All" ]]; then
+        # Play all songs in the selected folder, shuffled
+        mpv_cmd="mpv --shuffle --playlist=<(find \\\"$folder_path\\\" -type f -iname \\\"*.mp3\\\") & disown"
+    else
+        # Play the single chosen song
+        song_path="$folder_path/$selected_song"
+        mpv_cmd="mpv \\\"$song_path\\\" & disown"
+    fi
+fi
+
+
+# -------------------------------------------------------------------
+# STEP 4: Launch MPV & CAVA via Hyprland dispatcher
+# -------------------------------------------------------------------
+hyprctl dispatch "hl.dsp.exec_cmd(\"$mpv_cmd\", { float = true, size = {430, 430}, move = {170, 210} })"
+
+hyprctl dispatch 'hl.dsp.exec_cmd("kitty -- cava -p /home/rudra/scripts/app-groups/modules/mpv-cava.conf", { float = true, size = {467, 171}, move = {620, 310} })'
