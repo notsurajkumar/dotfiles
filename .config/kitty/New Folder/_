@@ -1,0 +1,3 @@
+shell /usr/bin/bash
+
+touch_scroll_multiplier 9.0
