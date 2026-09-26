@@ -1,3 +1,0 @@
-echo "https://www.youtube.com/watch?v=8WkcLwXCFJQ" | wl-copy
-echo "Link copied to clipboard!"
-

@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-rofi \
-    -show combi \
-    -modes "combi,window,run,drun,google:./rofi-google" \
-    -combi-modes "window,run,drun,google"

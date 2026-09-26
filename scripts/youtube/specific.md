@@ -1,3 +1,0 @@
-educational
-entertainment
-incog
