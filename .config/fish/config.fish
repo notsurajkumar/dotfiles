@@ -1,5 +1,3 @@
-# uploaded from git cli
-#hellow world
 #source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 # overwrite greeting
@@ -104,4 +102,3 @@ end
 
 
 alias dotfiles "git --git-dir=$HOME/tmp/dotfiles-git/.cfg/ --work-tree=$HOME"
-funcsave dotfiles
