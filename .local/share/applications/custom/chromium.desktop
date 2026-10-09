@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Chromium
+GenericName=Personal Browser
+Exec=kitty --class custom-floating "/home/rudra/scripts/locked-apps/chromium.sh"
+Icon=/home/rudra/.local/share/applications/webapps/icons/chromium.png
+Keywords=chromium;

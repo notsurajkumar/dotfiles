@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Tasks
+Exec=/opt/brave-bin/brave --profile-directory=Default --new-window --app=https://tasks.google.com
+Icon=/home/rudra/.local/share/applications/webapps/icons/tasks.png
+Keywords=tasks;todo;notes;

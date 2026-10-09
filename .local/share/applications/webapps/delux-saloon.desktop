@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Delux Saloon
+Exec=/opt/brave-bin/brave --profile-directory=Default --new-window --app=https://deluxsalon.in/
+Icon=/home/rudra/.local/share/applications/webapps/icons/vinyl.png
+Keywords=saloon;delux;old songs;retro;songs;music;barber;sunday;

@@ -1,0 +1,121 @@
+@import "/home/rudra/.config/wallust/output/colors.rasi"
+
+* {
+  bg-out        : #fcfcfc;
+  bg-in         : #fcfcfc;
+  bg-selected   : @foreground;
+  active-font   : @background;
+  inactive-font : #000000;
+  faded-font    : #9fa2b2;
+}
+
+
+window {
+  border-radius : 20px;
+  padding : 0px 10px 10px 10px;
+
+  /* Single transparency layer */
+  background-color : #fcfcfcaa;
+}
+
+
+mainbox {
+  background-color : #00000000;
+  padding : 0px 5px 5px 5px;
+}
+
+
+inputbar {
+  orientation : horizontal;
+  children : [prompt, entry];
+
+  /* Transparent so window controls the overall opacity */
+  background-color : #00000000;
+
+  margin : 20px 0px;
+  padding : 5px 15px;
+
+  border : 2px;
+  border-radius : 15px;
+  border-color : @faded-font;
+}
+
+
+prompt {
+  background-color : #00000000;
+  text-color : @active-font;
+  padding : 10px 0px 10px 0px;
+}
+
+
+entry {
+  placeholder : "Search...";
+  cursor : text;
+
+  background-color : #00000000;
+
+  padding : 10px 10px 10px 0px;
+  vertical-align : 0.5;
+
+  placeholder-color : @faded-font;
+  text-color : @inactive-font;
+}
+
+
+listview {
+  columns : 2;
+  lines : 5;
+  dynamic : true;
+  cycle : false;
+
+  /* Transparent */
+  background-color : #00000000;
+
+  border-radius : 15px;
+}
+
+
+element {
+  orientation : horizontal;
+  children : [element-icon, element-text];
+
+  /* Transparent except when selected */
+  background-color : #00000000;
+
+  padding : 3px 10px;
+}
+
+
+element-icon {
+  size : 1.5em;
+  background-color : #00000000;
+  padding : 0px 0px;
+}
+
+
+element-text {
+  cursor : pointer;
+  vertical-align : 0.5;
+
+  text-color : @inactive-font;
+  background-color : #00000000;
+
+  padding : 3mm 0mm 3mm 2mm;
+}
+
+
+element selected {
+  background-color : @bg-selected;
+  border-radius : 15px;
+}
+
+
+element-text selected {
+  background-color : inherit;
+  text-color : @active-font;
+}
+
+
+element-icon selected {
+  background-color : inherit;
+}
