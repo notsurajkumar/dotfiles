@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Rofi Themer
+Generic=Personal themes only
+Exec=bash /home/rudra/scripts/rofi-theme-changer/themer.sh
+Icon=/home/rudra/.local/share/applications/webapps/icons/themer.png
+Keywords=rofi;theme;change;color;dynamic;light;dark;auto;
