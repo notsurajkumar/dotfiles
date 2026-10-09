@@ -1,7 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Random Wallpaper
-Exec=bash /home/rudra/scripts/wallpaper_switcher/random.sh
-Icon=/home/rudra/.local/share/applications/webapps/icons/wallpaper.png

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=ChatGPT
-Exec=/opt/brave-bin/brave --profile-directory=Default --new-window --app=https://www.chatgpt.com
-Icon=/home/rudra/.local/share/applications/webapps/icons/chatgpt.png
-Keywords=ai;chatgpt;help;

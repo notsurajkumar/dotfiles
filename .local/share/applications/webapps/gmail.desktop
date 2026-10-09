@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Gmail
-GenericName=Personal
-Exec=/opt/brave-bin/brave --profile-directory=Default --new-window --app=https://gmail.google.com
-Icon=/home/rudra/.local/share/applications/webapps/icons/gmail.png
-Keywords=gmail;mail;email;

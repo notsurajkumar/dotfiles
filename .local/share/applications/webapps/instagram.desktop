@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Instagram
-Exec=/opt/brave-bin/brave --profile-directory="Default" --new-window --app=https://www.instagram.com
-Icon=/home/rudra/.local/share/applications/webapps/icons/instagram.png
-Keywords=insta;palak;instagram;

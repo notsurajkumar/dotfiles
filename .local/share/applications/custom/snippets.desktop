@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Snippets
-Exec=bash /home/rudra/scripts/snippets/snippets.sh
-Icon=/home/rudra/.local/share/applications/webapps/icons/snippets.png
-Keywords=snippets;shortcut;full form;
