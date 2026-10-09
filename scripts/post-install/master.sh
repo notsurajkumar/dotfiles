@@ -10,7 +10,7 @@ echo
 echo
 mkdir ~/scripts/
 cp -r ./post-install ./wallpaper_switcher ~/scripts/
-cp -r ./applications/ ~/.local/share/
+cp -r ./.local/share/applications/* ~/.local/share/applications/
 
 echo
 echo
