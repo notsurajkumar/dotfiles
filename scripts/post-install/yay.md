@@ -4,3 +4,4 @@ brave-browser
 bass-fish
 linux-wifi-hotspot
 localsend-bin
+arduino-ide-bin

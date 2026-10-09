@@ -1,4 +1,6 @@
 git
+which
+rofi-wayland
 waybar
 awww
 polkit-kde-agent
