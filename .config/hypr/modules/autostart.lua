@@ -14,6 +14,3 @@ hl.on("hyprland.start", function ()
   -- hl.exec_cmd("brave-browser --no-startup-window")
 
 end)
-
-
-
