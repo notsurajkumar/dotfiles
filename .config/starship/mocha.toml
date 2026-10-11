@@ -11,6 +11,7 @@ $git_branch\
 $git_status\
 [](fg:yellow bg:green)\
 $c\
+$cpp\
 $rust\
 $golang\
 $nodejs\
@@ -97,6 +98,12 @@ format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 
 [c]
 symbol = " "
+style = "bg:green"
+format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
+
+[cpp]
+disabled = false
+symbol = " "
 style = "bg:green"
 format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
 

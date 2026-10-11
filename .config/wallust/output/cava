@@ -9,11 +9,11 @@ bar_spacing = 1
 gradient = 1
 
 # Updated wallust dynamic color variables (double braces):
-gradient_color_1 = '#211108'
-gradient_color_2 = '#231306'
-gradient_color_3 = '#251208'
-gradient_color_4 = '#464E57'
-gradient_color_5 = '#77492B'
-gradient_color_6 = '#A25D2B'
-gradient_color_7 = '#FD965C'
-gradient_color_8 = '#B55D28'
+gradient_color_1 = '#310E06'
+gradient_color_2 = '#370706'
+gradient_color_3 = '#380608'
+gradient_color_4 = '#BC634A'
+gradient_color_5 = '#BA5243'
+gradient_color_6 = '#FBB994'
+gradient_color_7 = '#FFCFA9'
+gradient_color_8 = '#BD8361'

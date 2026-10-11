@@ -148,12 +148,12 @@ ignore_base = false
 
 [time]
 disabled = false
-time_format = "%R"
+time_format = "%I:%M %p"
 style = "bg:lavender"
 format = '[[  $time ](fg:crust bg:lavender)]($style)'
 
 [line_break]
-disabled = true
+disabled = false
 
 [character]
 disabled = false
@@ -165,12 +165,11 @@ vimcmd_replace_symbol = '[❮](bold fg:lavender)'
 vimcmd_visual_symbol = '[❮](bold fg:yellow)'
 
 [cmd_duration]
-show_milliseconds = true
+show_milliseconds = false
 format = " in $duration "
 style = "bg:lavender"
 disabled = false
-show_notifications = true
-min_time_to_notify = 45000
+show_notifications = false
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
