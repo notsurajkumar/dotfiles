@@ -8,8 +8,7 @@ function fish_greeting
 end
 #    # smth smth
 #end
-#set -gx STARSHIP_CONFIG ~/.config/starship/minimal.toml
-#set -gx STARSHIP_CONFIG ~/.config/starship/personal.toml
+#set -gx STARSHIP_CONFIG ~/.config/starship/mocha.toml
 set -gx STARSHIP_CONFIG ~/.config/starship/mocha.toml
 starship init fish | source
 
@@ -104,3 +103,5 @@ end
 
 #alias dotfiles "git --git-dir=$HOME/tmp/dotfiles-git/.cfg/ --work-tree=$HOME"
 alias dotfiles "git --git-dir=$HOME/tmp/dotfiles/.cfg/ --work-tree=$HOME"
+
+
