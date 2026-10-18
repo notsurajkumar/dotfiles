@@ -1,22 +1,22 @@
 * {
-    background: #000305;
-    foreground: #BDE2F6;
+    background: #020602;
+    foreground: #B0DEFF;
 
-    color0: #010407;
-    color1: #010F2A;
-    color2: #01164F;
-    color3: #1D496A;
-    color4: #1C6793;
-    color5: #6089A2;
-    color6: #91B5C8;
-    color7: #B2D7EB;
+    color0: #030703;
+    color1: #191727;
+    color2: #1E1E2E;
+    color3: #546F65;
+    color4: #5C8C9F;
+    color5: #D0A083;
+    color6: #BF748E;
+    color7: #A4D2FA;
 
-    color8: #6C8FA1;
-    color9: #010F2A;
-    color10: #01164F;
-    color11: #1D496A;
-    color12: #1C6793;
-    color13: #6089A2;
-    color14: #91B5C8;
-    color15: #D0E3ED;
+    color8: #5F8BB0;
+    color9: #191727;
+    color10: #1E1E2E;
+    color11: #546F65;
+    color12: #5C8C9F;
+    color13: #D0A083;
+    color14: #BF748E;
+    color15: #C9E0F4;
 }
