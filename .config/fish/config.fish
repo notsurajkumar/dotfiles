@@ -1,3 +1,4 @@
+# this is post restore from recycle bin of arch
 #source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 # overwrite greeting
