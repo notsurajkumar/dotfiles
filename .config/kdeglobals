@@ -8,3 +8,4 @@ MaximumRemoteSize=0
 [General]
 TerminalApplication=kitty
 TerminalService=kitty.desktop
+ColorScheme=Wallust

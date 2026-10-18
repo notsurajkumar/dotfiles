@@ -60,6 +60,7 @@ alias sites="nvim ~/scripts/bookmarks-manager/links.md"
 alias watchlist="nvim ~/notes/watchlist.md"
 alias epacman="nvim ~/scripts/post-install/pacman.md"
 alias eyay="nvim ~/scripts/post-install/yay.md"
+alias vault="~/scripts/vault/vault.fish"
 
 
 

@@ -48,7 +48,7 @@ waybar = { template = "colors.css", target = "~/.config/wallust/output/colors.cs
 # template: A RELATIVE path that points to `~/.config/wallust/template` (depends on platform)
 rofi=  { template = "colors.rasi", target = "~/.config/wallust/output/colors.rasi" }
 
-
+kde = { template = "kde.colors", target = "~/.local/share/color-schemes/Wallust.colors" }
 [templates.cava]
 template = "cava-config"
 target = "~/.config/wallust/output/cava"

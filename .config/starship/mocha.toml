@@ -30,7 +30,7 @@ $cmd_duration\
 $line_break\
 $character"""
 
-palette = 'catppuccin_mocha'
+palette = 'catppuccin_frappe'
 
 [os]
 disabled = false
@@ -289,3 +289,4 @@ surface0 = "#363a4f"
 base = "#24273a"
 mantle = "#1e2030"
 crust = "#181926"
+
