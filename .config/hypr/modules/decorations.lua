@@ -26,7 +26,7 @@ hl.config({
 -- general blur and special workspace blur settigns, and also corner radius
 hl.config({
   decoration = {
-    rounding = 15,
+    rounding = 10,
     rounding_power = 3,
     dim_special = 0.2,
     blur = {

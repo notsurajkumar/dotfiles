@@ -18,6 +18,7 @@ function vlc
 end
 
 # aliases
+export TERMINAL=kitty
 alias chromium="echo"
 alias cfish="nvim ~/.config/fish/config.fish"
 alias sfish="source ~/.config/fish/config.fish && fish"
