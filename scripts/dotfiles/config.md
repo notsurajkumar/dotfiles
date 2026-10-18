@@ -1,0 +1,13 @@
+hypr
+kitty
+waybar
+rofi
+mpv
+dunst
+fontconfig
+mpd
+himalaya
+ncmpcpp
+fastfetch
+Proton
+nvim

@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# Rofi calls the script twice.
+# First: no arguments -> print menu entries.
+# Second: selected/typed text is passed as $1.
+
+if [[ -z "$1" ]]; then
+    echo "g "
+    exit 0
+fi
+
+query="$1"
+
+# Only react to lines beginning with "g "
+if [[ "$query" =~ ^g[[:space:]]+(.+) ]]; then
+    search="${BASH_REMATCH[1]}"
+    xdg-open "https://www.google.com/search?q=$(printf '%s' "$search" | sed 's/ /+/g')" >/dev/null 2>&1 &
+fi
