@@ -5,3 +5,5 @@ bass-fish
 linux-wifi-hotspot
 localsend-bin
 arduino-ide-bin
+g4music
+tauon-music-box

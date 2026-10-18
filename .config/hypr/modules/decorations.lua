@@ -11,11 +11,23 @@ hl.workspace_rule(
   }
 )
 
+
+-- window borders color/gradient
+hl.config({
+  general = {
+    col = {
+      active_border = "rgb(A19F9F)" -- Kinda light grey (not absolute white)
+    },
+  },
+})
+
+
+
 -- general blur and special workspace blur settigns, and also corner radius
 hl.config({
   decoration = {
-    rounding = 0,
-    rounding_power = 4,
+    rounding = 15,
+    rounding_power = 3,
     dim_special = 0.2,
     blur = {
       special = 1,

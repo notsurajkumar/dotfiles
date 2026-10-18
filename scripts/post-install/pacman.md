@@ -44,3 +44,4 @@ alacritty
 android-tools
 mkvtoolnix-cli
 mkvtoolnix-gui
+audacious
