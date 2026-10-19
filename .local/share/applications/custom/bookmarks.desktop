@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Bookmarks
+Exec=bash /home/rudra/scripts/bookmarks-manager/from-keywords.sh
+Icon=/home/rudra/.local/share/applications/webapps/icons/bookmarks.png
+Keywords=links;bookmarks;sites;shortcut

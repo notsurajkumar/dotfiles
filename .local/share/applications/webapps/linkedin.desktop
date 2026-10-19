@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=LinkedIn
+Exec=/opt/brave-bin/brave --profile-directory=Default --new-window --app=https://www.linkedin.com/feed/
+Icon=/home/rudra/.local/share/applications/webapps/icons/linkedin.png
+Keywords=

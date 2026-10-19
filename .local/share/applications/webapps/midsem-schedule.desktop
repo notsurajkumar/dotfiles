@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Mid Sem Schedule
+Exec=/opt/brave-bin/brave --profile-directory="Profile 2" --new-window --app=https://docs.google.com/spreadsheets/d/1IEPNXuzYPkvRbGBFMLBC9MkUWuKCeGVzlA4uO47oRX0/edit?gid=2012686717#gid=2012686717
+Icon=/home/rudra/.local/share/applications/webapps/icons/excel.png
+Keywords=midsem;schedule;timetable;paper;exam;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+GenericName=No ADS
+Type=Application
+Name=YouTube Music
+Exec=/opt/brave-bin/brave  --profile-directory=Default --new-window --app=https://music.youtube.com
+Icon=/home/rudra/.local/share/applications/webapps/icons/ytmusic.png
+Keywords=ytmusic;music;youtube;songs;spotify;revanced;

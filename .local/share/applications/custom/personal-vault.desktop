@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Obsidian - Personal
+GenericName=personal vault
+Exec=xdg-open "obsidian://open?vault=personal"
+Icon=/home/rudra/.local/share/applications/webapps/icons/obsidian.png
+Keywords=perosnal;vault;obsidian
