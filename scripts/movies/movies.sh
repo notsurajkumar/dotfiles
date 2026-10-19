@@ -17,13 +17,14 @@ selected=$(cat "$rud" | rofi -dmenu -i -p "Movie  ")
 final=$(find "$dir" -iname "$selected")
 
 if [[ -z $final ]]; then
-  break
+  exit 
 else
   #mpv "$final" &
   #vlc "$final" &
   #set -lx QT_SCALE_FACTOR 1.5; vlc "$final" &
   #set -lx QT_SCALE_FACTOR 1.5; vlc
   QT_SCALE_FACTOR=1.5 vlc "$final" & disown
+  echo "QT_SCALE_FACTOR=1.5 vlc \"$final\" & disown"
 fi
 
 rm "$tmp"
