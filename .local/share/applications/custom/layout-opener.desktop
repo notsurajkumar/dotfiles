@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Layout Opener
-GenericName=Personal layouts
-Exec=bash /home/rudra/scripts/custom-workspaces/rofi
-Icon=/home/rudra/.local/share/applications/webapps/icons/layout.png
-Keywords=programming;code;learn;c;harry;coding;workspace;mode;layout;custom;

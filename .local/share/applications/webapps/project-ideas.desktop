@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Project Ideas
-Exec=/opt/brave-bin/brave --profile-directory="Profile 2" --new-window --app=https://docs.google.com/spreadsheets/d/1RZ-XISppJgVSvPACwf3JPlIN1i3x9IEEp2KTMCXoh-w/edit?gid=0#gid=0
-Icon=/home/rudra/.local/share/applications/webapps/icons/excel.png
-Keywords=physics;project;idea;

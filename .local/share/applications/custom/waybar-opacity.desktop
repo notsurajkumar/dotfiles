@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Waybar Opacity Changer
-#GenericName=Personal layouts
-Exec=bash /home/rudra/scripts/waybar-opacity/opacity-changer.sh
-Icon=/home/rudra/.local/share/applications/webapps/icons/opacity.png
-Keywords=opacity;transparency;blur;waybar;light;dark;

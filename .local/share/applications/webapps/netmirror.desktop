@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=NetMirror
-Exec=/opt/brave-bin/brave --profile-directory=Default --new-window --app=https://www.netmirror.center
-Icon=/home/rudra/.local/share/applications/webapps/icons/netflix.png
-Keywords=netflix;movies;ott;netmirror;

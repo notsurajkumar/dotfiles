@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Obsidian - Matrix
-GenericName=coding/matrix vault
-Exec=xdg-open "obsidian://open?vault=matrix"
-Icon=/home/rudra/.local/share/applications/webapps/icons/obsidian.png
-Keywords=matrix;coding;vault;obsidian

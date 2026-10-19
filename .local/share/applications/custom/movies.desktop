@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Movies
-GenericName=Local Movies
-Exec=bash /home/rudra/scripts/movies/movies.sh
-Icon=/home/rudra/.local/share/applications/webapps/icons/movies.png
-Keywords=movies;local;entertainment;film;

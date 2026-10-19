@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=WhatsApp Web
-Exec=/opt/brave-bin/brave --profile-directory=Default --new-window --app=https://web.whatsapp.com
-Icon=/home/rudra/.local/share/applications/webapps/icons/whatsapp.png
-Keywords=

@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=E-Books
-GenericName=Academic books
-Exec=bash /home/rudra/scripts/books/books.sh
-Icon=/home/rudra/.local/share/applications/webapps/icons/ebook.png
-Keywords=books;physics;real analysis;notes;griffi;

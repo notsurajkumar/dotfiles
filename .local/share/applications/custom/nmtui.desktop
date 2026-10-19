@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=nmtui
-GenericName=TUI network manager
-Exec=kitty nmtui
-Icon=/home/rudra/.local/share/applications/webapps/icons/nmtui.png
-Keywords=network;wifi;lan;ehternet;bluetooth;

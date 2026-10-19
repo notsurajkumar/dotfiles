@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Terminal=false
-GenericName=No ADS
-Type=Application
-Name=Spotify
-Exec=/opt/brave-bin/brave  --profile-directory="Profile 1" --new-window --app=https://open.spotify.com
-Icon=/home/rudra/.local/share/applications/webapps/icons/spotify.png
-Keywords=music,spotify,songs;
