@@ -45,3 +45,4 @@ android-tools
 mkvtoolnix-cli
 mkvtoolnix-gui
 audacious
+kid3-qt
