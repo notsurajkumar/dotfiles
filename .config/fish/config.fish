@@ -61,6 +61,8 @@ alias watchlist="nvim ~/notes/watchlist.md"
 alias epacman="nvim ~/scripts/post-install/pacman.md"
 alias eyay="nvim ~/scripts/post-install/yay.md"
 alias vault="~/scripts/vault/vault.fish"
+alias ytdlp="yt-dlp"
+alias ytdlpf="yt-dlp --list-formats"
 
 
 

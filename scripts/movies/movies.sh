@@ -4,6 +4,9 @@ dir='/home/rudra/Videos/movies/'
 tmp='/home/rudra/scripts/movies/tmp'
 rud='/home/rudra/scripts/movies/rud'
 
+rm "$tmp"
+rm "$rud"
+
 names=$(find "$dir" -type f \( -name "*.mkv" -o -name "*.mp4" -o -name "*.webp" -o -name "*.avi" \))
 
 
@@ -18,6 +21,8 @@ final=$(find "$dir" -iname "$selected")
 
 if [[ -z $final ]]; then
   exit 
+  rm "$tmp"
+  rm "$rud"
 else
   #mpv "$final" &
   #vlc "$final" &

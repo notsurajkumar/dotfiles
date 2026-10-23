@@ -4,6 +4,7 @@ rofi-wayland
 waybar
 awww
 polkit-kde-agent
+kde-cli-tools
 gnome-disk-utility
 neovim
 htop btop
