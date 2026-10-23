@@ -7,7 +7,7 @@ rud='/home/rudra/scripts/movies/rud'
 rm "$tmp"
 rm "$rud"
 
-names=$(find "$dir" -type f \( -name "*.mkv" -o -name "*.mp4" -o -name "*.webp" -o -name "*.avi" \))
+names=$(find "$dir" -type f \( -name "*.mkv" -o -name "*.mp4" -o -name "*.webp" -o -name "*.avi" -o -name "*.webm" \))
 
 
 echo "$names" > "$tmp"
