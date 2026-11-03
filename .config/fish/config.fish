@@ -87,9 +87,6 @@ alias powercheck="cat /sys/devices/system/cpu/intel_pstate/{min_perf_pct,max_per
 
 
 
-
-
-
 # new tools selector
 function ntools
     set -l action (bash /home/rudra/scripts/new-tools-selector/tools.sh)
@@ -104,3 +101,7 @@ end
 alias dotfiles "git --git-dir=$HOME/tmp/dotfiles/.cfg/ --work-tree=$HOME"
 
 
+
+function reload-config --on-variable _reload_signal
+    exec fish
+end

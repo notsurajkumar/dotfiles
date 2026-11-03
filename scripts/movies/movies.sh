@@ -3,9 +3,11 @@
 dir='/home/rudra/Videos/movies/'
 tmp='/home/rudra/scripts/movies/tmp'
 rud='/home/rudra/scripts/movies/rud'
+nrud='/home/rudra/scripts/movies/nrud'
 
 rm "$tmp"
 rm "$rud"
+rm "$nrud"
 
 names=$(find "$dir" -type f \( -name "*.mkv" -o -name "*.mp4" -o -name "*.webp" -o -name "*.avi" -o -name "*.webm" \))
 
@@ -16,13 +18,23 @@ while IFS= read -r line; do
   names=$(echo "$line" | rev | cut -d '/' -f1 | rev >> $rud)
 done < "$tmp"
 
-selected=$(cat "$rud" | rofi -dmenu -i -p "Movie  ")
-final=$(find "$dir" -iname "$selected")
+while IFS= read -r line; do
+  names=$(echo "$line" | rev | cut -d '.' -f1 --complement | rev >> $nrud)
+done < "$rud"
+
+selected=$(cat "$nrud" | rofi -dmenu -theme-str 'listview { columns : 1; }' -theme-str 'element-icon { enabled : false; }' -i -p "Movie  ")
+sfinal=$(grep "$selected" "$rud")
+final=$(find "$dir" -iname "$sfinal")
+
+#echo "$selected"
+#echo "$sfinal"
+#echo "$final"
 
 if [[ -z $final ]]; then
   exit 
   rm "$tmp"
   rm "$rud"
+  rm "$nrud"
 else
   #mpv "$final" &
   #vlc "$final" &
@@ -34,3 +46,4 @@ fi
 
 rm "$tmp"
 rm "$rud"
+rm "$nrud"
